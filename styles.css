@@ -1,0 +1,224 @@
+
+/* Navigation Bar Stlying */
+
+.nav-item{
+    margin-bottom: 2rem;
+    font-size: larger;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: "Ubuntu";
+}
+
+.navbar{
+    padding:0 0 4.5rem
+}
+
+
+.container-fluid{
+    padding:4% 15%
+
+}
+
+/* Title Styling */
+
+#title{
+    background-color: #ff4c68;
+}
+
+.big-heading{
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-style: italic;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom: 85px;
+}
+
+
+#bt1{
+    padding:5px 55px 5px 55px;
+    margin-right: 50px;
+}
+
+#bt2{
+    padding:5px 55px 5px 55px;
+}
+
+
+#img1{
+    transform: rotate(15deg);
+    width: 60%;
+    /* z-index: -1; //goes behind pink screen only, so cant  */
+    position: absolute;
+    right: 10%;
+}
+
+
+@media (max-width:1028px)
+{
+
+    #title{
+        text-align: center;
+    }
+    #img1{
+        position: static;
+        transform: rotate(0);
+        margin-top: 20px;
+    }
+}
+
+
+/* Features Styling  */
+
+.features-h3{
+    font-family: "Ubuntu";
+}
+
+
+#features{
+   
+    padding: 10% 0 10% 0;
+    text-align: center;
+    background-color: white;
+    /* position: absolute;  removes any html flow element */
+    position: relative;
+    z-index: 1;
+}
+
+.fas{
+    font-size: 250%;
+    padding-bottom: 15%;
+    color: #ef8172;
+}
+
+.fas:hover{
+    color: #ff4c68;
+}
+
+
+.txt{
+    color: #8f8f8f;
+    
+}
+
+
+
+/* Testimonials Styling  */
+
+#testimonials{
+    padding: 2% 5%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+ border-radius: 100%;
+    width: 15%;
+    margin: 5%;
+}
+
+.dog-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+.testimonial-h2{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Press Styling  */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.media-imgs{
+    width: 15%;
+    margin:0 4% 0 4%;
+}
+
+
+
+/* Pricing Styling  */
+
+#pricing{
+    padding: 6%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-h2{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-h3
+{
+    font-family: "Ubuntu";
+    
+}
+
+
+/* Call To Action Styling */
+
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5%;
+   
+}
+
+.call-bt1{
+    color: black;
+    margin:3%;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+
+}
+
+.call-bt2{
+    margin:3%;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+}
+.cta-h3{
+font-family: "Ubuntu";
+font-weight: 10%;
+font-size: 55px;
+width: 80%;
+text-align: center;
+padding-left: 21%;
+color: white;
+}
+
+
+/* Footer Styling */
+
+.fab{
+    padding: 0 1rem 0 0rem ;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+
