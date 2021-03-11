@@ -28,14 +28,13 @@
 /* Title Styling */
 
 #title{
-    background-color: #ff4c68;
+    background-color: #012E6D;
 }
 
 .big-heading{
     font-family: 'IBM Plex Mono', monospace;
     color: white;
-    font-style: italic;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 900;
     line-height: 1.5;
     margin-bottom: 85px;
@@ -95,16 +94,16 @@
 .fas{
     font-size: 250%;
     padding-bottom: 15%;
-    color: #ef8172;
+    color: #0097E1;
 }
 
 .fas:hover{
-    color: #ff4c68;
+    color: #012E6D;
 }
 
 
 .txt{
-    color: #8f8f8f;
+    color: #004FA7;
     
 }
 
@@ -115,7 +114,7 @@
 #testimonials{
     padding: 2% 5%;
     text-align: center;
-    background-color: #ef8172;
+    background-color: #0097E1;
     color: #fff;
 }
 
@@ -141,7 +140,7 @@
 /* Press Styling  */
 
 #press{
-    background-color: #ef8172;
+    background-color: #0097E1;
     text-align: center;
     padding-bottom: 5%;
 }
@@ -182,7 +181,7 @@
 
 #cta{
     text-align: center;
-    background-color: #ff4c68;
+    background-color: #012E6D;
     padding: 5%;
    
 }
